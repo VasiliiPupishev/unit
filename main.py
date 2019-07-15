@@ -8,7 +8,7 @@ mailer = Mailer()
 
 
 def write_in_file(message):
-    base_file = open('README.txt', 'a')
+    base_file = open('logs.txt', 'a')
     base_file.write(message + "\n")
 
 
